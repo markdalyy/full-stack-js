@@ -3,10 +3,10 @@
   <a href="https://github.com/markdalyy/full-stack-js">
     <img src="react-node.png" alt="Logo" height="94" width="94"/>
   </a>
-  <h3>Full stack JS</h3>
+  <h3>Full Stack JS</h3>
 
   <p>
-    Full stack JavaScript web app.
+    Full Stack JavaScript web app.
     <br />
     <a href="https://github.com/markdalyy/full-stack-js"><strong>Explore the project »</strong></a>
     <br />
@@ -34,22 +34,24 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
-![Screenshot of UI](ui.png "User Interface")
+<!--[Screenshot of UI](ui.png "User Interface")-->
 
 This is a full stack JavaScript web application with React client side and Node.js/Express server side with MySQL database.
 
 ### Built With
 
-* [React](https://reactjs.org/)
-* [Node.js/Express] (https://nodejs.org/en/)
-* [MySQL] (https://www.mysql.com/)
-* [Sequelize ORM] (https://sequelize.org/)
+- [React](https://reactjs.org/)
+- [Node.js/Express](https://nodejs.org/en/)
+- [MySQL](https://www.mysql.com/)
+- [Sequelize ORM](https://sequelize.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 Instructions on how to view the entire project locally.
@@ -59,32 +61,40 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 Things you need to use the software and how to install them.
-* Node
 
-   Go to [Node.js Official Website](https://nodejs.org/en/download/ "Download") and download the relevant version for your operating system.
+- Node
 
-   Tip: If on Linux system, scroll down to "Installing Node.js via package manager" and follow the instructions for your distribution.
+  Go to [Node.js Official Website](https://nodejs.org/en/download/ "Download") and download the relevant version for your operating system.
 
-* MySQL
+  Tip: If on Linux system, scroll down to "Installing Node.js via package manager" and follow the instructions for your distribution.
 
-    Install MySQL Server and Workbench from [MySQL Official Website](https://dev.mysql.com/downloads/)
+- MySQL
 
-* Sequelize
+  Install MySQL Server and Workbench from [MySQL Official Website](https://dev.mysql.com/downloads/).
 
-    npm install sequelize sequelize-cli
-    sequelize init
-    sudo npm install -g sequelize-cli (if above fails then init again)
+- Sequelize
 
+  ```sh
+  npm install sequelize sequelize-cli
+  sequelize init
+  sudo npm install -g sequelize-cli # if above fails then init again
+  ```
 
 ### Installation
+
 **To view the entire project in Godot:**
+
 1. Clone the repo.
+
    ```sh
    git clone https://github.com/markdalyy/full-stack-js.git
    ```
 
 2. Open the project in terminal.
 
-3. Run npm start.
+3. Run
+   ```sh
+   npm start
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
