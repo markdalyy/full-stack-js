@@ -1,0 +1,13 @@
+# dotenv evironment variable files
+bin
+.env
+
+# Database Configuration
+server/config
+
+# Not used
+server/migrations
+server/seeders
+
+# Dependency directories
+node_modules/
